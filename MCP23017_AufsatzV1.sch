@@ -11876,6 +11876,9 @@ Source: www.kingbright.com</description>
 <junction x="-83.82" y="50.8"/>
 <label x="-76.2" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-93.98" y1="53.34" x2="-86.36" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="INTB" class="0">
 <segment>
