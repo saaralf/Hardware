@@ -152,6 +152,7 @@
  INPUT
 Version V5</text>
 <hole x="46.99" y="67.31" drill="3"/>
+<dimension x1="-15.24" y1="80" x2="60.63" y2="80" x3="22.695" y3="97.79" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="con-phoenix-508" urn="urn:adsk.eagle:library:176">
@@ -1020,6 +1021,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="76.2" x2="15.215" y2="76.175" width="0.508" layer="16"/>
 <wire x1="20.32" y1="64.77" x2="20.32" y2="71.12" width="0.508" layer="16"/>
 <wire x1="20.32" y1="71.12" x2="15.24" y2="76.2" width="0.508" layer="16"/>
+<wire x1="13.9911" y1="76.175" x2="13.9911" y2="74.9511" width="0.508" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="SV5" pad="10"/>
@@ -1044,6 +1046,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPB0.">
 <contactref element="SV5" pad="1"/>
+<wire x1="43.18" y1="26.67" x2="41.91" y2="27.94" width="0.254" layer="16"/>
 <contactref element="IC4" pad="1"/>
 <wire x1="41.91" y1="27.94" x2="15.24" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1070,12 +1073,18 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="64.77" x2="17.78" y2="71.12" width="0.508" layer="16"/>
 <wire x1="17.78" y1="71.12" x2="15.24" y2="73.66" width="0.508" layer="16"/>
 <wire x1="15.24" y1="73.66" x2="13.97" y2="73.66" width="0.508" layer="16"/>
+<wire x1="1.392625" y1="72.62" x2="1.162625" y2="72.39" width="0.508" layer="1"/>
+<wire x1="8.9111" y1="76.175" x2="5.3561" y2="72.62" width="0.508" layer="1"/>
+<wire x1="5.3561" y1="72.62" x2="1.392625" y2="72.62" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB5">
 <contactref element="IC4" pad="13"/>
 <contactref element="X2GPB0-7" pad="4"/>
 <wire x1="27.94" y1="64.77" x2="27.94" y2="74.8839" width="0.508" layer="16"/>
 <wire x1="27.94" y1="74.8839" x2="29.2311" y2="76.175" width="0.508" layer="16"/>
+<wire x1="36.60276875" y1="63.5" x2="36.04396875" y2="64.0588" width="0.508" layer="16"/>
+<wire x1="28.6512" y1="64.0588" x2="27.94" y2="64.77" width="0.508" layer="16"/>
+<wire x1="36.04396875" y1="64.0588" x2="28.6512" y2="64.0588" width="0.508" layer="16"/>
 </signal>
 <signal name="+12V">
 <contactref element="IC1" pad="10"/>
@@ -1086,13 +1095,18 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="2"/>
 <contactref element="IC4" pad="10"/>
 <contactref element="X1GPA0-7" pad="1"/>
-<wire x1="15.24" y1="16.51" x2="35.56" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="64.77" x2="38.1" y2="67.31" width="0.508" layer="16"/>
+<wire x1="38.1" y1="67.31" x2="43.18" y2="67.31" width="0.508" layer="16"/>
+<wire x1="44.22" y1="66.162625" x2="45.842625" y2="64.54" width="0.508" layer="16"/>
+<wire x1="43.18" y1="67.31" x2="44.22" y2="66.27" width="0.508" layer="16"/>
+<wire x1="44.22" y1="66.27" x2="44.22" y2="66.162625" width="0.508" layer="16"/>
+<wire x1="46.99" y1="12.7" x2="45.842625" y2="64.54" width="0" layer="19" extent="16-16"/>
+<wire x1="46.99" y1="10.16" x2="46.99" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="12.7" x2="46.99" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="10.16" x2="46.99" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="16.51" x2="44.45" y2="12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="2.565" y1="21.6111" x2="15.24" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="3.7889" y1="3.835" x2="15.24" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="12.7" x2="15.24" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="12.7" x2="44.45" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="10.16" x2="46.99" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="10.16" x2="44.45" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPA7">
 <contactref element="IC1" pad="11"/>
@@ -1132,16 +1146,21 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="14"/>
 <wire x1="25.4" y1="64.77" x2="24.1511" y2="66.0189" width="0.508" layer="16"/>
 <wire x1="24.1511" y1="66.0189" x2="24.1511" y2="76.175" width="0.508" layer="16"/>
+<wire x1="25.4" y1="64.77" x2="27.94" y2="67.31" width="0.508" layer="1"/>
+<wire x1="35.56" y1="67.31" x2="27.94" y2="67.31" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB3">
 <contactref element="IC4" pad="15"/>
 <contactref element="X2GPB0-7" pad="6"/>
 <wire x1="19.0711" y1="76.175" x2="22.86" y2="72.3861" width="0.508" layer="16"/>
 <wire x1="22.86" y1="72.3861" x2="22.86" y2="64.77" width="0.508" layer="16"/>
+<wire x1="22.86" y1="64.77" x2="20.32" y2="67.31" width="0.508" layer="1"/>
+<wire x1="20.32" y1="67.31" x2="13.97" y2="67.31" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB0">
 <contactref element="IC4" pad="18"/>
 <contactref element="X2GPB0-7" pad="9"/>
+<wire x1="-0.025" y1="76.175" x2="3.8311" y2="76.175" width="0.254" layer="1"/>
 <wire x1="3.8311" y1="76.175" x2="6.3461" y2="73.66" width="0.508" layer="16"/>
 <wire x1="8.89" y1="73.66" x2="10.16" y2="72.39" width="0.508" layer="16"/>
 <wire x1="10.16" y1="72.39" x2="12.7" y2="72.39" width="0.508" layer="16"/>
@@ -1149,12 +1168,16 @@ design rules under a new name.</description>
 <wire x1="13.97" y1="71.12" x2="13.97" y2="64.77" width="0.508" layer="16"/>
 <wire x1="13.97" y1="64.77" x2="15.24" y2="64.77" width="0.508" layer="16"/>
 <wire x1="6.3461" y1="73.66" x2="8.89" y2="73.66" width="0.508" layer="16"/>
+<wire x1="0.025" y1="76.175" x2="3.8311" y2="76.175" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB6">
 <contactref element="X2GPB0-7" pad="3"/>
 <contactref element="IC4" pad="12"/>
 <wire x1="30.48" y1="64.77" x2="30.48" y2="72.3439" width="0.508" layer="16"/>
 <wire x1="30.48" y1="72.3439" x2="34.3111" y2="76.175" width="0.508" layer="16"/>
+<wire x1="34.3111" y1="76.175" x2="37.2584625" y2="76.175" width="0.508" layer="1"/>
+<wire x1="37.2584625" y1="76.175" x2="38.7664625" y2="74.667" width="0.508" layer="1"/>
+<wire x1="38.7664625" y1="74.667" x2="44.713" y2="74.667" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB7">
 <contactref element="IC4" pad="11"/>
@@ -1162,6 +1185,10 @@ design rules under a new name.</description>
 <wire x1="39.3911" y1="76.175" x2="39.3911" y2="71.1411" width="0.508" layer="16"/>
 <wire x1="39.3911" y1="71.1411" x2="33.02" y2="64.77" width="0.508" layer="16"/>
 <wire x1="39.3911" y1="76.2211" x2="39.3911" y2="76.175" width="0.254" layer="1"/>
+<wire x1="45.0957375" y1="77.683" x2="43.8464625" y2="77.683" width="0.508" layer="1"/>
+<wire x1="42.3845625" y1="76.2211" x2="39.3911" y2="76.2211" width="0.508" layer="1"/>
+<wire x1="43.8464625" y1="77.683" x2="42.3845625" y2="76.2211" width="0.508" layer="1"/>
+<wire x1="45.3087375" y1="77.47" x2="45.0957375" y2="77.683" width="0.508" layer="1"/>
 </signal>
 <signal name="GPB7.">
 <contactref element="SV5" pad="8"/>
